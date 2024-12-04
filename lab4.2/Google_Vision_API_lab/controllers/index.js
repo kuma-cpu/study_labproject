@@ -56,7 +56,7 @@ const createImageController = async (req, res) => {
     };
 
     // TODO: add you code here
-     const response = await axios.post(
+    const response = await axios.post(
       `https://vision.googleapis.com/v1/images:annotate?key=${apiKey}`,
       request_body,{
         headers:{
